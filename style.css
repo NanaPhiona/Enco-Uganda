@@ -355,13 +355,23 @@ p, li {
     font-size: 20px;
 }
 
+#footer-link{
+    font-size: 15px;
+    padding: 5px;
+}
+
 #address_type{
     padding-bottom: 10px;
     margin-bottom: 20px;
-    font-size: 18px;
+    font-size: 15px;
+}
+
+#footer li{
+    font-size: 20px;
 }
 
 #footer a:hover{
+
     color: rgb(40, 145, 169);
 }
 
