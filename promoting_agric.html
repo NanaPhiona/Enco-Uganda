@@ -14,14 +14,20 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <title>enco</title>
   </head>
   <body>
     <div id="header"></div>
     <section class="main">
       <div class="container-fluid" id="activities-page-active">
-        <p>Activities->promoting agriculture</p>
+        <p class="mb-0">
+          Activities
+          <span class="material-icons align-middle mx-2" aria-hidden="true"
+            >arrow_forward</span
+          >
+          <span class="fw-semibold">Promoting Agriculture</span>
+        </p>
       </div>
       <div class="container-fluid mt-0" id="category_promo">
         <h1 class="text-center" id="category_heading">Promoting Agriculture</h1>
@@ -35,23 +41,23 @@
               sustainable development within communities. We focus on empowering
               farmers and local residents with the knowledge, skills, and tools
               needed to practice environmentally friendly agriculture that
-              supports both conservation and income generation. 
+              supports both conservation and income generation.
             </p>
             <p>
-              Through training
-              programs on sustainable farming techniques, such as agroforestry,
-              crop rotation, organic farming, and the use of eco-friendly
-              technologies, we help farmers increase productivity while
-              minimizing environmental harm. 
+              Through training programs on sustainable farming techniques, such
+              as agroforestry, crop rotation, organic farming, and the use of
+              eco-friendly technologies, we help farmers increase productivity
+              while minimizing environmental harm.
             </p>
-            <p>By integrating conservation principles into agricultural practices, we encourage the
-              protection of natural ecosystems, soil health, and water
-              resources, ensuring that farming activities do not contribute to
-              deforestation, pollution, or land degradation. Additionally, we
-              support the diversification of crops and the adoption of
-              climate-resilient practices that enhance food security and provide
-              alternative income sources, contributing to the overall economic
-              well-being of communities.
+            <p>
+              By integrating conservation principles into agricultural
+              practices, we encourage the protection of natural ecosystems, soil
+              health, and water resources, ensuring that farming activities do
+              not contribute to deforestation, pollution, or land degradation.
+              Additionally, we support the diversification of crops and the
+              adoption of climate-resilient practices that enhance food security
+              and provide alternative income sources, contributing to the
+              overall economic well-being of communities.
             </p>
           </div>
           <div class="col-md-3" id="category_links">
@@ -84,7 +90,7 @@
       </div>
     </section>
 
-   <div id="footer"></div>
+    <div id="footer"></div>
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -96,7 +102,7 @@
     ></script>
 
     <script>
-      $(function(){
+      $(function () {
         $("#header").load("header.html");
         $("#footer").load("footer.html");
       });

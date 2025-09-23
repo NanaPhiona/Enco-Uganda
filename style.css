@@ -427,6 +427,13 @@ li {
     font-size: 16px;
   }
 
+  #category_heading {
+    color: black;
+    text-align: center;
+    font-weight: 900;
+    font-size: 30px;
+  }
+
   h1,
   h2,
   h3,
