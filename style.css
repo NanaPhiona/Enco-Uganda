@@ -1,5 +1,5 @@
-.nav-item{
-    font-size: 20px;
+.nav-item {
+  font-size: 20px;
 }
 /* .nav-item:hover{
 color: #ffff;
@@ -9,537 +9,540 @@ padding: 2px;
 } */
 
 body {
-    font-family: 'Lora', serif; 
+  font-family: "Lora", serif;
 }
 
-h1, h2, h3, h4, h5 {
-    font-family: 'Montserrat', sans-serif; 
-    font-weight: 600;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 600;
 }
 
-p, li {
-    font-family: 'Merriweather', serif;
-    font-size: 18px; 
-    /* Applying Merriweather for long paragraphs */
+p,
+li {
+  font-family: "Merriweather", serif;
+  font-size: 18px;
+  /* Applying Merriweather for long paragraphs */
 }
 
-.nav-item a:hover{
-    color:rgb(51, 120, 51);
-
+.nav-item a:hover {
+  color: rgb(51, 120, 51);
 }
-.nav-item a:active{
-    background-color: rgb(51, 120, 51);
-    color: #ffff;
-    border-radius: 10%;
-    padding: 5px;
-}
-
-#welcome_container{
-    height: 800px;
-    width: 100%;
-    margin: 0;
-    background-image: url('images/tree2.jpg');
-    background-attachment: fixed;
+.nav-item a:active {
+  background-color: rgb(51, 120, 51);
+  color: #ffff;
+  border-radius: 10%;
+  padding: 5px;
 }
 
-#welcome_message{
-    padding-top: 200px;
-    font-size: 80px;
-    font-weight: 900;
-    color: white;
+#welcome_container {
+  height: 800px;
+  width: 100%;
+  margin: 0;
+  background-image: url("images/tree2.jpg");
+  background-attachment: fixed;
 }
 
-#welcome_button{
-    margin: 20px;
-    padding: 10px;
-    font-size: 24px;
+#welcome_message {
+  padding-top: 200px;
+  font-size: 80px;
+  font-weight: 900;
+  color: white;
 }
 
-#introduction{
-    padding: 20px;
+#welcome_button {
+  margin: 20px;
+  padding: 10px;
+  font-size: 24px;
 }
 
-#why_conserve{
-    padding: 10px;
-    line-height: 30px;
+#introduction {
+  padding: 20px;
 }
 
-#strategies{
-    margin-left: 20px;
+#why_conserve {
+  padding: 10px;
+  line-height: 30px;
 }
 
-#why_conserve_img{
-    height: auto;
-    max-width: 100%;
+#strategies {
+  margin-left: 20px;
 }
 
-#footer{
-    background-color: rgb(51, 120, 51);
-    margin: auto;
-    color: white;
+#why_conserve_img {
+  height: auto;
+  max-width: 100%;
 }
 
-#about-us{
-    background-color: rgb(51, 120, 51);
-    color: #ffffff;
-    margin-top: 10px;
+#footer {
+  background-color: rgb(51, 120, 51);
+  margin: auto;
+  color: white;
 }
 
-#our-story{
-    margin-bottom: 20px;
-    padding: 10px;
+#about-us {
+  background-color: rgb(51, 120, 51);
+  color: #ffffff;
+  margin-top: 10px;
 }
 
-#our-story h1{
-    font-weight: 700;
+#our-story {
+  margin-bottom: 20px;
+  padding: 10px;
+}
+
+#our-story h1 {
+  font-weight: 700;
 }
 
 #mission {
-    margin: 20px;
-    background-color: rgb(51, 120, 51);
-    padding: 5px;
-    color: #ffffff;
+  margin: 20px;
+  background-color: rgb(51, 120, 51);
+  padding: 5px;
+  color: #ffffff;
 }
 
-#vision{
-    background-color: rgb(40, 145, 169);
-    padding: 5px;
-    margin: 20px;
-    color: #ffffff;
+#vision {
+  background-color: rgb(40, 145, 169);
+  padding: 5px;
+  margin: 20px;
+  color: #ffffff;
 }
 
-#goal{
-    background-color: rgb(111, 169, 40);
-    padding: 5px;
-    margin: 20px;
-    color: #ffffff;
+#goal {
+  background-color: rgb(111, 169, 40);
+  padding: 5px;
+  margin: 20px;
+  color: #ffffff;
 }
 
-
-#mission p{
-    font-size: 18px;
+#mission p {
+  font-size: 18px;
 }
 
-#vision p{
-    font-size: 18px;
+#vision p {
+  font-size: 18px;
 }
 
-.core_values{
-    margin-bottom: 40px;
-    padding: 10px;
+.core_values {
+  margin-bottom: 40px;
+  padding: 10px;
 }
 
 .icon-container {
-    margin-bottom: 15px; /* Space between the icon and heading */
+  margin-bottom: 15px; /* Space between the icon and heading */
 }
-  
+
 #core_value_icons {
-    font-size: 48px; /* Adjust icon size as needed */
+  font-size: 48px; /* Adjust icon size as needed */
 }
 
-.core_values p{
-    font-size: 20px;
+.core_values p {
+  font-size: 20px;
 }
 
-#card-core-values{
-    color: rgb(51, 120, 51);
-    text-align: center;
+#card-core-values {
+  color: rgb(51, 120, 51);
+  text-align: center;
 }
 
-#card-core-values:hover{
-    background-color: rgb(51, 120, 51);
-    color: #ffffff;
+#card-core-values:hover {
+  background-color: rgb(51, 120, 51);
+  color: #ffffff;
 }
 
-#activities-page{
-    background-color: rgb(51, 120, 51);
-    margin-bottom: auto;
-    margin-top: 0px;
-
+#activities-page {
+  background-color: rgb(51, 120, 51);
+  margin-bottom: auto;
+  margin-top: 0px;
 }
-.activities_welcome{
-    height: 200px;
-    background-image: url('images/gorilla.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+.activities_welcome {
+  height: 200px;
+  background-image: url("images/gorilla.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-.activities_welcome h1{
-    color: white;
-    font-weight: 900;
-    font-size: 50px;
+.activities_welcome h1 {
+  color: white;
+  font-weight: 900;
+  font-size: 50px;
 }
 
-.activity_categories{
-    margin-top: 20px;
-    margin-bottom: 20px;
-    padding: 10px;
+.activity_categories {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 10px;
 }
 
-.activity_categories p{
-   font-size: 20px;
+.activity_categories p {
+  font-size: 20px;
 }
 
-.categories_heading{
-    margin: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+.categories_heading {
+  margin: 20px;
+  font-family: Georgia, "Times New Roman", Times, serif;
 }
 
-#category_promo{
-    height: 200px;
-    background-image: url('images/agriculture.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.7;
-    text-align: center;
+#category_promo {
+  height: 200px;
+  background-image: url("images/agriculture.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  text-align: center;
 }
 
-#tree_planting_project{
-    height: 200px;
-    background-image: url('images/tree1.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.7;
-    text-align: center;
-    object-fit: cover;
+#tree_planting_project {
+  height: 200px;
+  background-image: url("images/tree1.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  text-align: center;
+  object-fit: cover;
 }
 
-#tree_planting_activities{
-    height: 200px;
-    background-image: url('images/tree\ distribution.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.7;
-    text-align: center;
-    object-fit: cover;
+#tree_planting_activities {
+  height: 200px;
+  background-image: url("images/tree\ distribution.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  text-align: center;
+  object-fit: cover;
 }
 
-#strategy_empowering{
-    height: 200px;
-    background-image: url('images/community\ empowerement.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.7;
-    text-align: center;
+#strategy_empowering {
+  height: 200px;
+  background-image: url("images/community\ empowerement.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  text-align: center;
 }
 
-#category_heading{
-    color: black;
-    font-weight: 900;
-    font-size: 50px;
+#category_heading {
+  color: black;
+  font-weight: 900;
+  font-size: 50px;
 }
 
-#category-content{
-    font-size: 24px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+#category-content {
+  font-size: 24px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
-#activities-page-active{
-    background-color:rgb(51, 120, 51);
-    margin-top: 20px;
-    margin-bottom: 20px;
-    color: #ffff;
-}
-
-#category_sensitization{
-    height: 200px;
-    background-image: url('images/IMG_20240918_161048_462.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.7;
-    text-align: center;
+#activities-page-active {
+  background-color: rgb(51, 120, 51);
+  margin-top: 20px;
+  margin-bottom: 20px;
+  color: #ffff;
 }
 
-#category_engagement{
-    height: 200px;
-    background-image: url('images/currency2.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.7;
-    text-align: center;
+#category_sensitization {
+  height: 200px;
+  background-image: url("images/IMG_20240918_161048_462.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  text-align: center;
 }
 
-#category_livelihood{
-    height: 200px;
-    background-image: url('images/farming.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    opacity: 0.7;
-    text-align: center;
+#category_engagement {
+  height: 200px;
+  background-image: url("images/currency2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  text-align: center;
 }
 
-#strategy_monitoring{
-    height: 200px;
-    background-image: url('images/monitoring.png');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    opacity: 0.7;
-    text-align: center;
-    object-fit: cover;
+#category_livelihood {
+  height: 200px;
+  background-image: url("images/farming.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  opacity: 0.7;
+  text-align: center;
 }
 
-#category_training_young{
-    height: 200px;
-    background-image: url('images/train.jpeg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    opacity: 0.7;
-    text-align: center;
-    object-fit: cover;
+#strategy_monitoring {
+  height: 200px;
+  background-image: url("images/monitoring.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.7;
+  text-align: center;
+  object-fit: cover;
 }
 
-#category_distribution{
-    height: 200px;
-    background-image: url('images/Nursery-bed.jpg');
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    opacity: 0.7;
-    text-align: center;
-    object-fit: cover;
+#category_training_young {
+  height: 200px;
+  background-image: url("images/train.jpeg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.7;
+  text-align: center;
+  object-fit: cover;
 }
 
-#strategy_monitoring h1{
-    color: black;
+#category_distribution {
+  height: 200px;
+  background-image: url("images/Nursery-bed.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.7;
+  text-align: center;
+  object-fit: cover;
 }
 
-#category_links ul{
-    list-style-type: none;
+#strategy_monitoring h1 {
+  color: black;
 }
 
-#category_links a{
-    text-decoration: none;
-    font-size: 18px;
+#category_links ul {
+  list-style-type: none;
 }
 
-#category_links p{
-    font-size: 16px;
+#category_links a {
+  text-decoration: none;
+  font-size: 18px;
 }
 
-#category_links a:hover{
-    color:rgb(51, 120, 51);
+#category_links p {
+  font-size: 16px;
 }
 
-#contact-container{
-    margin-bottom: 20px;
-    border: solid rgb(51, 120, 51);
-    padding: 20px;
+#category_links a:hover {
+  color: rgb(51, 120, 51);
 }
 
-#submit-btn{
-    background-color: rgb(51, 120, 51);
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 600;
-    width: 20%;
-    margin: 10px;
+#contact-container {
+  margin-bottom: 20px;
+  border: solid rgb(51, 120, 51);
+  padding: 20px;
 }
 
-
-#footer_icon{
-    padding: 5px;
-    font-size: 20px;
+#submit-btn {
+  background-color: rgb(51, 120, 51);
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  width: 20%;
+  margin: 10px;
 }
 
-#footer-link{
-    font-size: 15px;
-    padding: 5px;
+#footer_icon {
+  padding: 5px;
+  font-size: 20px;
 }
 
-#address_type{
-    padding-bottom: 10px;
-    margin-bottom: 20px;
-    font-size: 15px;
+#footer-link {
+  font-size: 15px;
+  padding: 5px;
 }
 
-#footer li{
-    font-size: 20px;
+#address_type {
+  padding-bottom: 10px;
+  margin-bottom: 20px;
+  font-size: 15px;
 }
 
-#footer a:hover{
-
-    color: rgb(40, 145, 169);
+#footer li {
+  font-size: 20px;
 }
 
-#mission_vision_goal{
-    margin-top: 100px;
-    font-size: 30px;
+#footer a:hover {
+  color: rgb(40, 145, 169);
 }
 
-#activity_img{
-    height: 35vh;
-    width: 100%;
-    justify-content: center;
-    text-align: center;
+#mission_vision_goal {
+  margin-top: 100px;
+  font-size: 30px;
 }
 
-#sacco_img{
-    width: 100%;
-    height: 300px;
+#activity_img {
+  height: 35vh;
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+}
+
+#sacco_img {
+  width: 100%;
+  height: 300px;
 }
 
 /* style for mobile */
 
-
 @media only screen and (max-width: 600px) {
-    body {
-      font-family: 'Lora', serif
-    }
-  
-    .card {
-      margin-bottom: 20px;
-    }
-
-    #welcome_message{
-        padding-top: 100px;
-        font-size: 30px;
-        font-weight: 700;
-        color: white;
-    }
-
-    #welcome_container{
-        height: 400px;
-        width: 100%;
-        margin: 0;
-        background-image: url('images/tree2.jpg');
-        background-attachment: fixed;
-    }
-    
-    #welcome_button{
-        margin: 10px;
-        padding: 10px;
-        font-size: 16px;
-    }
-    
-    h1, h2, h3, h4, h5 {
-        font-family: 'Montserrat', sans-serif; 
-        font-weight: 600;
-    }
-    
-    p, li{
-        font-family: 'Merriweather', serif; 
-        font-size: 16px;
-        /* Applying Merriweather for long paragraphs */
-    }
-
-    #strategies{
-        padding: 20px;
-        line-height: 30px;
-    }
-
-    #why_conserve{
-        padding: 20px;
-        line-height: 30px;
-    }
-
-    #why_conserve p{
-        font-size: 16px;
-        text-align: center;
-    } 
-    #strategy_category{
-        margin-bottom: 10px;
-    }
-
-    #footer-link{
-        font-size: 15px;
-        padding: 5px;
-    }
-    
-    #address_type{
-        padding-bottom: 10px;
-        margin-bottom: 20px;
-        font-size: 15px;
-    }
-    
-
-    .footer_col{
-        margin: 5px;
-        padding: 10px;
-
-    }
-
-    #footer a:hover{
-        color: rgb(40, 145, 169);
-    }
-
-    #image_strategy{
-        height: 500px;
-    }
-
-    .activities_welcome{
-        height: 200px;
-        background-image: url('images/gorilla.jpg');
-        background-attachment: fixed;
-        background-repeat: no-repeat;
-        background-size: cover;
-        
-    }
-    
-    .activities_welcome h1{
-        padding-top: 25px;
-        color: white;
-        font-weight: 900;
-        font-size: 30px;
-    }
-
-    .activity_categories{
-        margin-top: 20px;
-        margin-bottom: 30px;
-        padding: 10px;
-    }
-
-    #activity_category{
-        margin-bottom: 15px;
-    }
-
-    #activity_img{
-        height: 35vh;
-        width: 70%;
-        margin-left: 50px;
-        justify-content: center;
-        text-align: center;
-    }
-
-    #activity_content{
-        text-align: center;
-    }
-
-    #category_engagement h1{
-        font-size: 36px;
-        padding-top: 20px;
-    }
-
-    #sensitization_img{
-        height: 40vh;
-        width: 100%;
-    }
-
-    #our-story p{
-        font-size: 16px;
-    }
-
-    .core_values p{
-        font-size: 16px;
-    }
-
-    #sensitization_img{
-        height: 60vh;
-        width: 100%;
-    }
-
-   
+  body {
+    font-family: "Lora", serif;
   }
+
+  .card {
+    margin-bottom: 20px;
+  }
+
+  /* .navbar-brand {
+    font-size: 12px;
+  } */
+
+  #welcome_message {
+    padding-top: 100px;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+  }
+
+  #welcome_container {
+    height: 400px;
+    width: 100%;
+    margin: 0;
+    background-image: url("images/tree2.jpg");
+    background-attachment: fixed;
+  }
+
+  #welcome_button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+  }
+
+  p,
+  li {
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    /* Applying Merriweather for long paragraphs */
+  }
+
+  #strategies {
+    padding: 20px;
+    line-height: 30px;
+  }
+
+  #why_conserve {
+    padding: 20px;
+    line-height: 30px;
+  }
+
+  #why_conserve p {
+    font-size: 16px;
+    text-align: center;
+  }
+  #strategy_category {
+    margin-bottom: 10px;
+  }
+
+  #footer-link {
+    font-size: 15px;
+    padding: 5px;
+  }
+
+  #address_type {
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+    font-size: 15px;
+  }
+
+  .footer_col {
+    margin: 5px;
+    padding: 10px;
+  }
+
+  #footer a:hover {
+    color: rgb(40, 145, 169);
+  }
+
+  #image_strategy {
+    height: 500px;
+  }
+
+  .activities_welcome {
+    height: 200px;
+    background-image: url("images/gorilla.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .activities_welcome h1 {
+    padding-top: 25px;
+    color: white;
+    font-weight: 900;
+    font-size: 30px;
+  }
+
+  .activity_categories {
+    margin-top: 20px;
+    margin-bottom: 30px;
+    padding: 10px;
+  }
+
+  #activity_category {
+    margin-bottom: 15px;
+  }
+
+  #activity_img {
+    height: 35vh;
+    width: 70%;
+    margin-left: 50px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  #activity_content {
+    text-align: center;
+  }
+
+  #category_engagement h1 {
+    font-size: 36px;
+    padding-top: 20px;
+  }
+
+  #sensitization_img {
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+  }
+
+  #our-story p {
+    font-size: 16px;
+  }
+
+  .core_values p {
+    font-size: 16px;
+  }
+
+  #sensitization_img {
+    height: 60vh;
+    width: 100%;
+  }
+}
