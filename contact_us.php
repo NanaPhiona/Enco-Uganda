@@ -25,8 +25,8 @@ if($_SERVER['REQUEST_METHOD'] == 'POST' && isset($_POST['submit'])){
 
         // Sender & recipient
     $mail->setFrom('info@encouganda.org', 'Website Contact Form');
-    $mail->addAddress($email, $name); // send to yourself
-
+    $mail->addAddress('info@encouganda.org', 'Enco Uganda'); // Always send to your inbox
+    $mail->addReplyTo($email, $name); // So
         // Email content
     $mail->isHTML(true);
     $mail->Subject = "New Contact Form Submission from $name";

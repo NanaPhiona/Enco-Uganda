@@ -29,17 +29,19 @@
     <div id="header"></div>
 
     <section class="main">
-      <div class="container-fluid" id="welcome_container">
+     <div class="parallax">
+      <div class="parallax-content">
         <h1 class="text-center" id="welcome_message">
           Let's Conserve the Environment and Nature to Empower communities for a
           sustainable future
         </h1>
         <div class="text-center">
-          <a class="btn btn-success" id="welcome_button" href="about.html"
-            >About Enco</a
-          >
+          <a class="btn btn-success" id="welcome_button" href="about.html">
+            About Enco
+          </a>
         </div>
       </div>
+    </div>
 
       <div class="container" id="introduction">
         <h1 class="text-center" id="introduction_message">
@@ -154,43 +156,32 @@
         </div>
       </div>
 
+      <div id="empty_container"></div>
+
       <div class="container" id="why_conserve">
         <h2>Why Environmental Conservation in communities?</h2>
-        <div class="row">
-          <div class="col-md-6 col-sm-12">
-            <p>
-              Environmental conservation in communities is vital because it
-              ensures the sustainability of natural resources that are essential
-              for human well-being and economic development. Local ecosystems,
-              such as forests, rivers, and soil, provide clean air, water, food,
-              and energy, all of which are critical for the survival and
-              livelihood of community members. Without proper conservation
-              efforts, communities face the threat of resource depletion,
-              environmental degradation, and the negative impacts of climate
-              change, such as droughts, floods, and loss of biodiversity. By
-              promoting conservation at the community level, we empower
-              individuals to take ownership of their environment, fostering
-              sustainable practices like responsible waste management,
-              reforestation, and eco-friendly agriculture. These initiatives not
-              only protect the environment but also enhance local economies by
-              promoting green jobs and sustainable livelihoods. Additionally,
-              conservation helps preserve biodiversity, which is crucial for
-              maintaining ecological balance and ensuring the resilience of
-              ecosystems against natural disasters. When communities actively
-              engage in protecting their natural surroundings, they contribute
-              to a healthier planet and create a legacy of environmental
-              stewardship for future generations.
-            </p>
-          </div>
-
-          <div class="col-md-6 col-sm-12" id="why_conserve_img">
-            <img
-              class="img-fluid"
-              src="images/tree1.jpg"
-              alt="Environmental conservation"
-            />
-          </div>
-        </div>
+        <p>
+          Environmental conservation in communities is vital because it ensures
+          the sustainability of natural resources that are essential for human
+          well-being and economic development. Local ecosystems, such as
+          forests, rivers, and soil, provide clean air, water, food, and energy,
+          all of which are critical for the survival and livelihood of community
+          members. Without proper conservation efforts, communities face the
+          threat of resource depletion, environmental degradation, and the
+          negative impacts of climate change, such as droughts, floods, and loss
+          of biodiversity. By promoting conservation at the community level, we
+          empower individuals to take ownership of their environment, fostering
+          sustainable practices like responsible waste management,
+          reforestation, and eco-friendly agriculture. These initiatives not
+          only protect the environment but also enhance local economies by
+          promoting green jobs and sustainable livelihoods. Additionally,
+          conservation helps preserve biodiversity, which is crucial for
+          maintaining ecological balance and ensuring the resilience of
+          ecosystems against natural disasters. When communities actively engage
+          in protecting their natural surroundings, they contribute to a
+          healthier planet and create a legacy of environmental stewardship for
+          future generations.
+        </p>
       </div>
     </section>
 
@@ -210,6 +201,12 @@
         $("#header").load("header.html");
         $("#footer").load("footer.html");
       });
+
+     window.addEventListener("scroll", function () {
+      const parallax = document.querySelector(".parallax");
+      let offset = window.scrollY * 0.5; // adjust 0.5 to control speed
+      parallax.style.backgroundPositionY = offset + "px";
+    });
     </script>
   </body>
 </html>
